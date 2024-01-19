@@ -2,3 +2,31 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+
+/* test */
+[class*="col-"] {
+    border: solid red 1px;
+    height: 300px;
+}
+
+.main {
+    height: calc(100vh - 59px);
+    margin-top: 59px;
+}
+
+/* test */
+.container-fluid {
+    border: solid blue 2px;
+}
+
+#side_bar {
+    height: calc(100vh - 59px);
+    margin-top: 59px;
+}
+
+/* test */
+#header {
+    border: solid 4px black;
+    height: 125px;
+}
