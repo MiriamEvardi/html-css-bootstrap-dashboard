@@ -11,8 +11,8 @@ body {
 }
 
 .main {
-    height: calc(100vh - 59px);
-    margin-top: 59px;
+    height: 100vh;
+    overflow-y: auto
 }
 
 /* test */
@@ -21,8 +21,7 @@ body {
 }
 
 #side_bar {
-    height: calc(100vh - 59px);
-    margin-top: 59px;
+    height: 100%;
 }
 
 /* test */
