@@ -20,16 +20,19 @@
                 <div class="navbar-brand m-0 px-3">
                     <img src="./img/logo.svg" alt="">
                 </div>
-                <form class="d-flex flex-grow-1" role="search">
+                <form class="d-flex flex-grow-1 align-items-center" role="search">
 
+                    <div class="d-flex flex-grow-1">
+                        <span class="search p-1 rounded-start"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input class="form-control me-2 shadow-none search rounded-0 rounded-end" type="search"
+                            placeholder="Search" aria-label="Search">
+                    </div>
 
-                    <input class="form-control me-2 shadow-none search" type="search" placeholder="Search"
-                        aria-label="Search">
 
                     <div class="d-flex align-items-center gap-3">
                         <div><i class="fa-solid fa-list"></i></div>
-                        <div><i class="fa-solid fa-list"></i></div>
-                        <div><i class="fa-solid fa-list"></i></div>
+                        <div><i class="fa-solid fa-circle-question"></i></div>
+                        <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
 
 
                         <!-- dropdown -->
@@ -54,8 +57,44 @@
     <div class="container-fluid">
 
         <!-- sidebar -->
-        <div class="row">
-            <div id="side_bar" class="col-1"></div>
+        <div class="row min-vh-100">
+            <div id="side_bar" class="col-1 d-flex">
+
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-column gap-3 justify-content-center align-items-center pt-3">
+                        <div class="text-nowrap">
+                            <span>
+                                <i class="fa-solid fa-house"></i>
+                            </span>
+                            <span class="d-none d-lg-inline">Home</span>
+                        </div>
+
+                        <div class="text-nowrap">
+                            <span>
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </span>
+                            <span class="d-none d-lg-inline">Search</span>
+                        </div>
+
+                        <div class="text-nowrap">
+                            <span>
+                                <i class="fa-solid fa-signal"></i>
+                            </span>
+                            <span class="d-none d-lg-inline">Signals</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="text-nowrap">
+                            <span>
+                                <i class="fa-solid fa-house"></i>
+                            </span>
+                            <span class="d-none d-lg-inline">Home</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
 
 
@@ -64,8 +103,43 @@
 
 
                 <!--start header -->
-                <div class="row">
-                    <div id="header" class="col-12"></div>
+                <div class="row bg-primary text-white">
+                    <div id="header" class="col-12">
+                        <div class="d-flex justify-content-between">
+
+                            <div class="mt-3">
+                                <h1 class="d-inline">Boolean</h1>
+                                <span class="bg_pill rounded-pill px-2">Piano blaze</span>
+
+                                <div style="--bs-breadcrumb-divider:'';" aria-label="breadcrumb">
+                                    <ol class="breadcrumb gap-1">
+                                        <li class="breadcrumb-item"><a
+                                                class="text-white text-decoration-none rounded-pill bg_pill px-2"
+                                                href="#">
+                                                3 App</a>
+                                            <i class="fa-solid fa-angles-right ms-2"></i>
+                                        </li>
+                                        <li class="breadcrumb-item active text-white rounded-pill bg_pill px-1"
+                                            aria-current="page">Boolean mobile app</li>
+                                        <li class="rounded-pill bg_pill px-2">Boolean web app</li>
+                                        <li class="rounded-pill bg_pill px-2">Boolean blog app</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <div>
+                                    Studenti online negli ultimi 30 minuti
+                                </div>
+                                <div class="fs-2">125</div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center me-5">
+                                <span class="me-2">
+                                    Nuovo studente
+                                </span>
+                                <div class="add border border-white text-center">+</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 

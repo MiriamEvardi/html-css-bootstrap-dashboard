@@ -1,7 +1,8 @@
 body {
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
     background-color: #f8f9fa;
+    overflow: hidden;
 }
 
 
@@ -11,10 +12,18 @@ body {
     height: 300px;
 }
 
-.search {
+.search,
+.search input:focus,
+.search:focus-within {
     background-color: #e5e5e5;
-
+    border: 1px #e5e5e5 solid;
 }
+
+.breadcrumb-item {
+    margin-right: 10px;
+    /* Aggiungi spazio tra gli elementi della breadcrumb */
+}
+
 
 .main {
     height: 100vh;
@@ -22,11 +31,23 @@ body {
 }
 
 #side_bar {
-    height: 100%;
+    color: white;
+    background-color: #051e34;
+    min-height: calc(100vh - 43px);
+    background-image: url(../img/sidebar-bg.png);
 }
 
 /* test */
 #header {
     border: solid 4px black;
     height: 125px;
+}
+
+.add {
+    width: 30px;
+    height: 30px;
+}
+
+.bg_pill {
+    background-color: #165bba;
 }
