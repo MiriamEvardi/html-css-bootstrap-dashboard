@@ -9,7 +9,11 @@ body {
 /* test */
 [class*="col-"] {
     border: solid red 1px;
-    height: 300px;
+    height: auto;
+}
+
+.subtitle_main {
+    background-color: #f8f9fa;
 }
 
 .search,
@@ -19,14 +23,12 @@ body {
     border: 1px #e5e5e5 solid;
 }
 
-.breadcrumb-item {
-    margin-right: 10px;
-    /* Aggiungi spazio tra gli elementi della breadcrumb */
-}
+
 
 
 .main {
-    height: 100vh;
+    background-color: #f8f9fa;
+    height: calc(100vh - 43px);
     overflow-y: auto
 }
 
@@ -38,10 +40,7 @@ body {
 }
 
 /* test */
-#header {
-    border: solid 4px black;
-    height: 125px;
-}
+
 
 .add {
     width: 30px;
@@ -50,4 +49,8 @@ body {
 
 .bg_pill {
     background-color: #165bba;
+}
+
+.table_img {
+    width: 30px;
 }
