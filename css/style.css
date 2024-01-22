@@ -3,9 +3,6 @@ body {
     overflow: hidden;
 }
 
-
-/* test */
-
 .subtitle_main {
     background-color: #f8f9fa;
 }
@@ -56,5 +53,11 @@ body {
 @media screen and (max-width: 991px) {
     .main {
         width: calc(100vw - 70px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas.offcanvas-end {
+        width: 50%;
     }
 }

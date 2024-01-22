@@ -117,9 +117,9 @@
                 <!--start header -->
                 <div class="row bg-primary text-white">
                     <div id="header">
-                        <div class="d-flex justify-content-between">
+                        <div class="row py-4 pe-5">
 
-                            <div class="mt-3">
+                            <div class="col-12 col-md-4 col-lg-6 order-2 order-md-0">
                                 <h1 class="d-inline fs-2">Boolean</h1>
                                 <span class="bg_pill rounded-pill px-2 text-nowrap">Piano blaze</span>
 
@@ -142,7 +142,7 @@
                             </div>
 
 
-                            <div class="mt-4">
+                            <div class="col-12 col-md-4 col-lg-3 order-3 order-md-0">
                                 <div class="text-wrap">
                                     Studenti online negli ultimi 30 minuti
                                 </div>
@@ -150,19 +150,29 @@
                             </div>
 
 
-                            <div class="d-flex justify-content-center align-items-center me-5">
+                            <div class=" col-12 col-md-4 col-lg-3 text-start text-lg-end order-1 order-md-0">
                                 <span class="me-2">
                                     Nuovo studente
                                 </span>
-                                <div>
-                                    <button class="btn btn-primary mb-2 " type="button" data-bs-toggle="offcanvas"
-                                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
-                                            class="fa-solid fa-plus"></i></button>
+                                <div class="d-inline">
+                                    <button class="btn btn-primary border border-white " type="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                        aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
-                                    <div class="offcanvas offcanvas-end overflow-auto" tabindex="-1" id="offcanvasRight"
-                                        aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas offcanvas-end overflow-auto border-0 " tabindex="-1"
+                                        id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+                                        <div class="d-flex justify-content-between ">
+                                            <div class="fs-4 ms-3 ">Inserisci un nuovo studente</div>
+                                            <div>
+                                                <button type="button" class="btn-close text-reset mt-2 me-2"
+                                                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                        </div>
+
                                         <div class="offcanvas-header">
-                                            <h5 id="offcanvasRightLabel">
+
+                                            <div id="offcanvasRightLabel">
                                                 <form class="row g-3">
                                                     <div class="col-md-6">
                                                         Name
@@ -226,9 +236,8 @@
                                                         </div>
                                                     </div>
                                                 </form>
-                                            </h5>
-                                            <button type="button" class="btn-close text-reset"
-                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+
 
                                         </div>
                                     </div>
