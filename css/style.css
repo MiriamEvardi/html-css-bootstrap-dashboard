@@ -44,10 +44,6 @@ body {
     background-color: rgba(255, 255, 255, 0.627);
 }
 
-.add {
-    width: 30px;
-    height: 30px;
-}
 
 .bg_pill {
     background-color: #165bba;
@@ -60,5 +56,12 @@ body {
 @media screen and (max-width: 991px) {
     .main {
         width: calc(100vw - 70px);
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .offcanvas {
+        width: 50%;
     }
 }
