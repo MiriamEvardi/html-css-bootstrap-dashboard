@@ -57,10 +57,7 @@ body {
     width: 30px;
 }
 
-
-
 @media screen and (max-width: 991px) {
-
     .main {
         width: calc(100vw - 70px);
     }
