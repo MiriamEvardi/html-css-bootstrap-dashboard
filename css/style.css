@@ -1,6 +1,4 @@
 body {
-    max-width: 100vw;
-    max-height: 100vh;
     background-color: #f8f9fa;
     overflow: hidden;
 }
@@ -27,19 +25,16 @@ body {
 
 .main {
     background-color: #f8f9fa;
-    height: calc(100vh - 43px);
+    height: calc(100vh - 58px);
     overflow-y: auto
 }
 
 #side_bar {
     color: white;
     background-color: #051e34;
-    min-height: calc(100vh - 43px);
+    height: calc(100vh - 58px);
     background-image: url(../img/sidebar-bg.png);
 }
-
-/* test */
-
 
 .add {
     width: 30px;
