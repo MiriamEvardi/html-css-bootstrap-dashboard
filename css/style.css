@@ -5,10 +5,6 @@ body {
 
 
 /* test */
-[class*="col-"] {
-    border: solid red 1px;
-    height: auto;
-}
 
 .subtitle_main {
     background-color: #f8f9fa;
