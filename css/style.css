@@ -17,15 +17,24 @@ body {
     border: 1px #e5e5e5 solid;
 }
 
+.mobile_logo {
+    width: 40px;
+    height: 56px;
+}
 
+.logo_img {
+    height: 100%;
+}
 
 .main {
+    width: calc(100vw - 190px);
     background-color: #f8f9fa;
     height: calc(100vh - 58px);
     overflow-y: auto
 }
 
 #side_bar {
+    width: 190px;
     color: white;
     background-color: #051e34;
     height: calc(100vh - 58px);
