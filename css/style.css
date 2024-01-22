@@ -36,8 +36,12 @@ body {
     width: 190px;
     color: white;
     background-color: #051e34;
-    height: calc(100vh - 58px);
+    height: calc(100vh - 72px);
     background-image: url(../img/sidebar-bg.png);
+}
+
+.side_btn:hover {
+    background-color: rgba(255, 255, 255, 0.627);
 }
 
 .add {
@@ -51,4 +55,13 @@ body {
 
 .table_img {
     width: 30px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .main {
+        width: calc(100vw - 68px);
+    }
 }

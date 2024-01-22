@@ -14,6 +14,8 @@
 
 <body class="overflow-hidden">
 
+
+    <!-- Navbar -->
     <nav class="mt-2 mb-2 my_nav">
         <div class="navbar p-0 ">
             <div class="container-fluid flex-nowrap bg-white ">
@@ -40,12 +42,14 @@
                             <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
                         </div>
 
-                        <!-- dropdown -->
+
+                        <!-- dropdown menu-->
                         <div class="btn-group">
                             <button type="button" class="btn p-0 border-0" data-bs-toggle="dropdown"
                                 data-bs-display="static" aria-expanded="false">
                                 <i class="fa-solid fa-bell text-warning"></i>
                             </button>
+
                             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-start">
                                 <li><button class="dropdown-item" type="button">Profilo</button></li>
                                 <li><button class="dropdown-item" type="button">Fatturazione</button></li>
@@ -66,37 +70,40 @@
             <div id="side_bar" class="col d-flex">
 
                 <div class="d-flex flex-column justify-content-between align-items-center">
-                    <div class="d-flex flex-column gap-3 pt-3">
-                        <div class="text-nowrap">
-                            <span>
-                                <i class="fa-solid fa-house"></i>
-                            </span>
-                            <span class="d-none d-lg-inline">Home</span>
-                        </div>
+                    <div class="pt-3 px-2">
+                        <ul class="list-unstyled d-flex d-flex flex-column align-items-center">
 
-                        <div class="text-nowrap">
-                            <span>
-                                <i class="fa-solid fa-chart-simple"></i>
-                            </span>
-                            <span class="d-none d-lg-inline">Search</span>
-                        </div>
+                            <li class="side_btn">
+                                <a class="btn btn-primary px-3 bg-transparent border-0" href="#" role="button">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span class="d-none d-lg-inline ms-3">Home</span>
+                                </a>
+                            </li>
 
-                        <div class="text-nowrap">
-                            <span>
-                                <i class="fa-solid fa-signal"></i>
-                            </span>
-                            <span class="d-none d-lg-inline">Signals</span>
-                        </div>
+                            <li class="side_btn">
+                                <a class="btn btn-primary px-3 bg-transparent border-0" href="#" role="button">
+                                    <i class="fa-solid fa-chart-simple fs-5 me-lg-3"></i>
+                                    <span class="d-none d-lg-inline me-2">Stats </span>
+                                </a>
+                            </li>
+
+                            <li class="side_btn">
+                                <a class="btn btn-primary bg-transparent border-0" href="#" role="button">
+                                    <i class="fa-solid fa-signal"></i>
+                                    <span class="d-none d-lg-inline ms-3">Signals</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div>
-                        <div class=" text-nowrap">
-                            <span>
-                                <i class="fa-solid fa-house"></i>
-                            </span>
-                            <span class="d-none d-lg-inline">Home</span>
-                        </div>
-                    </div>
+                    <ul class="list-unstyled">
+                        <li class="side_btn">
+                            <a class="btn btn-primary px-3 bg-transparent border-0" href="#" role="button">
+                                <i class="fa-solid fa-gear"></i>
+                                <span class="d-none d-lg-inline ms-3">Admin</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
