@@ -28,7 +28,7 @@ body {
 .main {
     width: calc(100vw - 190px);
     background-color: #f8f9fa;
-    height: calc(100vh - 58px);
+    height: calc(100vh - 72px);
     overflow-y: auto
 }
 
@@ -62,6 +62,6 @@ body {
 @media screen and (max-width: 991px) {
 
     .main {
-        width: calc(100vw - 68px);
+        width: calc(100vw - 70px);
     }
 }
